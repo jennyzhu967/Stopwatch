@@ -17,7 +17,7 @@ document.getElementById("pause-timer").addEventListener("click", function () {
 document.getElementById("reset-timer").addEventListener("click", function () {
     clearInterval(int);
     [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
-    timeRef.innerHTML = "00 : 00 : 00 : 000";
+    timeRef.innerHTML = "00 : 00 : 00";
 });
 
 function displayTimer() {
