@@ -1,0 +1,51 @@
+body {
+    background-color: #e0d1fd;
+}
+
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px;
+    border-radius: 10px;
+    background-color: rgb(191, 255, 255);
+    cursor: pointer;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#startBtn{
+    margin: 20px;
+}
+#pauseBtn{
+    margin: 20px;
+}
+#resetBtn{
+    margin: 20px;
+}
+
+.timerBtn:hover{
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/* https://www.w3schools.com/css/css_boxmodel.asp --- understanding border boxes*/
+#timeDisplay{
+    font-size: 50px;
+    color: #8c52ff;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#timeContainer{
+    width: 50%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border: 3px;
+    border-radius: 25px;
+    padding: 20px 0 50px; 
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
